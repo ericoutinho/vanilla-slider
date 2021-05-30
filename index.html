@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Slider</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="slider">
+        <!-- navegação lateral -->
+        <nav class="slider-nav slider-prev" onclick="playPrev()"><img src="./assets/angle-left-solid.svg"
+                aria-controls="previous"></nav>
+        <nav class="slider-nav slider-next" onclick="playNext()"><img src="./assets/angle-right-solid.svg"
+                aria-controls="next"></nav>
+
+        <!-- navegação pontos -->
+        <nav class="slider-dots">
+            <!-- <div class="slider-dots__item active"></div> -->
+        </nav>
+
+        <!-- slides -->
+        <div class="slider-wraper">
+            <div class="slider-item">
+                <div class="slider-item__column">column 1</div>
+                <div class="slider-item__column">column 2</div>
+            </div>
+            <div class="slider-item">#2</div>
+            <div class="slider-item">#3</div>
+            <div class="slider-item">#4</div>
+        </div>
+    </div>
+
+    <script src="custom.js"></script>
+
+</body>
+
+</html>
